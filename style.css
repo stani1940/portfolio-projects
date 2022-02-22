@@ -325,4 +325,39 @@ button:hover {
    margin-bottom: 2rem;
    color: #cccccc;
  }
+ .work{
+   background-color: #000016;
+ }
+ .work .work-content{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+   margin-top: 20px;
+ }
+.work .work-content .card{
+  width: 400px;
+  margin: 15px;
+}
 
+.work .work-content .card .card-image{
+  position: relative;
+  width: 100%;
+  height: 320px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.work .work-content .card .card-image img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: 0.5s ease;
+}
+.work .work-content .card .card-image img:hover {
+  transform:scale(1.2);
+}
