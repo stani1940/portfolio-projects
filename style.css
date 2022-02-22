@@ -6,7 +6,8 @@
 }
 
 .hero {
-  height: 700px;
+  height: 100vh;
+  width: 100%;
   background-image: url("img/banner.jpg");
   background-size: cover;
   background-position: center;
@@ -74,20 +75,20 @@ nav ul li a:hover {
   transform: translateY(-50%);
 }
 
-h1 {
+.content h1 {
   color: white;
   margin: 20px 0px 20px;
   font-size: 60px;
 }
 
-h3 {
+.content h3 {
   background-color: blue;
   color: white;
   font-size: 25px;
   margin-bottom: 50px;
 }
 
-h4 {
+.content h4 {
   background-color: blue;
   color: #fcfc;
   letter-spacing: 2px;
@@ -123,6 +124,7 @@ h4 {
 }
 
 .about {
+  height: 100vh;
   width: 100%;
   padding: 100px 0px;
   background-color: #191919;
@@ -130,7 +132,8 @@ h4 {
 
 .about img {
   height: auto;
-  width: 430px;
+  width: 400px;
+  border-radius: 200px;
 }
 
 .about-text {
@@ -247,4 +250,79 @@ button:hover {
   transition: .4s;
 }
 
+.skills{
+  background-color: #281c1c;
+  height: 100vh;
+  width: 100%;
+  padding: 100px 0px;
+}
+.skills .title h1{
+  color: white;
+  font-size: 75px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center ;
+}
+.skills-box{
+  padding-left: 20px;
+}
+.skills-box h4{
+  font-size: 1.8rem;
+  color: #888;
+  font-weight: 500;
+}
+.skills-box .skills-ilt{
+  width: 100%;
+  position:relative;
+  height: 2rem;
+  background-color: #cccccc;
+  border-radius: .5rem;
+}
+
+.skills-box .skills-bar{
+  background-color: #f9004d;
+  height: .4rem
+}
+
+.skills-box .html{
+  width:90%
+}
+.skills-box .css{
+  width:95%
+}
+
+.skills-box .javascript{
+  width:75%
+}
+
+.skills-box .php{
+  width:90%
+}
+
+.skills-box .mysql{
+  width:90%
+}
+
+.skills-box span{
+  position: absolute;
+  bottom: 10%;
+  right: 0;
+  font-size: 1.4rem;
+}
+
+.skills-center{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+}
+
+.right h3{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #cccccc;
+}
+ .right p{
+   margin-bottom: 2rem;
+   color: #cccccc;
+ }
 
